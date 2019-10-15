@@ -8,5 +8,6 @@
 #ifndef Header_h
 #define Header_h
 
+#import "UIView+MrWang.h"
 
 #endif /* Header_h */

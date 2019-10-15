@@ -1,0 +1,6 @@
+framework module MrWangLib {
+  umbrella header "MrWangLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

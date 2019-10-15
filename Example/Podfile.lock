@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MrWangLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MrWangLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MrWangLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MrWangLib: a8bd0a6546add0acfb13ba35ce728eb8e12716e8
+
+PODFILE CHECKSUM: 8fee5742b9dab13d386756f3efbb7a64727c1e2f
+
+COCOAPODS: 1.8.3
