@@ -19,6 +19,8 @@
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46243E842680D3C0E4664E9392C00C52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		4F7C12F5D376BAB1DF242F2433585A70 /* Pods-MrWangLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB69A811B1705F745AF2EB7C612EBA /* Pods-MrWangLib_Example-dummy.m */; };
+		5086535A2355E507003006D1 /* SCBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 508653582355E507003006D1 /* SCBannerView.h */; };
+		5086535B2355E507003006D1 /* SCBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 508653592355E507003006D1 /* SCBannerView.m */; };
 		50C4FEB82355AD91002EB004 /* UIView+MrWang.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C4FEB52355AD91002EB004 /* UIView+MrWang.m */; };
 		50C4FEB92355AD91002EB004 /* UIView+MrWang.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C4FEB52355AD91002EB004 /* UIView+MrWang.m */; };
 		50C4FEBA2355AD91002EB004 /* UIView+MrWang.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C4FEB52355AD91002EB004 /* UIView+MrWang.m */; };
@@ -89,6 +91,8 @@
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		42E697B61556E83BE0E839A00633A6F1 /* MrWangLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MrWangLib.modulemap; sourceTree = "<group>"; };
 		4B83780BCB8B619A9B0C0F030AE8A3EC /* Pods-MrWangLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MrWangLib_Example.modulemap"; sourceTree = "<group>"; };
+		508653582355E507003006D1 /* SCBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBannerView.h; sourceTree = "<group>"; };
+		508653592355E507003006D1 /* SCBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBannerView.m; sourceTree = "<group>"; };
 		50C4FEB52355AD91002EB004 /* UIView+MrWang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MrWang.m"; sourceTree = "<group>"; };
 		50C4FEB62355AD91002EB004 /* UIView+MrWang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MrWang.h"; sourceTree = "<group>"; };
 		50C4FEB72355AD91002EB004 /* MrWangLibHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MrWangLibHeader.h; path = MrWangLib/Classes/MrWangLibHeader.h; sourceTree = "<group>"; };
@@ -196,6 +200,15 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		508653572355E4B8003006D1 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				508653582355E507003006D1 /* SCBannerView.h */,
+				508653592355E507003006D1 /* SCBannerView.m */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 		50C4FEB32355AD91002EB004 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				50C4FEB72355AD91002EB004 /* MrWangLibHeader.h */,
+				508653572355E4B8003006D1 /* ScrollView */,
 				50C4FEB32355AD91002EB004 /* Category */,
 				9FAFCB86B23E5715749958478D3B7928 /* Pod */,
 				86B33E274837D0060C9E675B4A7176E4 /* Support Files */,
@@ -403,6 +417,7 @@
 				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
 				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
 				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				5086535A2355E507003006D1 /* SCBannerView.h in Headers */,
 				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
 				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
 				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
@@ -600,6 +615,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5086535B2355E507003006D1 /* SCBannerView.m in Sources */,
 				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
 				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
 				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,

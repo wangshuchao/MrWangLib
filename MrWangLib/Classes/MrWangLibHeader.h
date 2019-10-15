@@ -9,5 +9,6 @@
 #define Header_h
 
 #import "UIView+MrWang.h"
+#import "SCBannerView.h"
 
 #endif /* Header_h */
